@@ -27,7 +27,7 @@ function combine($col, $row) {
     return $arr;
 }
 
-Schema::create(PREFIX . 'codopm_messages', function($table) {
+Schema::create( 'codopm_messages', function($table) {
     $table->increments('id');
     $table->string('thread_hash', 30);
     $table->integer('msg_from');
@@ -43,7 +43,7 @@ Schema::create(PREFIX . 'codopm_messages', function($table) {
     $table->double('time', 15, 4);
 });
 
-Schema::create(PREFIX . 'codopm_config', function($table) {
+Schema::create( 'codopm_config', function($table) {
     $table->increments('id');
     $table->string('option_name', 50);
     $table->text('option_value');
