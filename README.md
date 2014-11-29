@@ -1,7 +1,7 @@
-								CODOPM
+								codoPM
 
 
-CODOPM is a simple and beautiful private messaging system developed for Codoforum . 
+codoPM is a simple and beautiful private messaging system developed for Codoforum . 
 
 
 Requirements:
