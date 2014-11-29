@@ -4,10 +4,6 @@
 codoPM is a simple and beautiful private messaging system developed for Codoforum . 
 
 
-Requirements:
-PDO-MYSQL must be installed.
-
-
 Installation:
 
 1. Extract the codopm zip file
