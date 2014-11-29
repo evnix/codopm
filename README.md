@@ -1,7 +1,7 @@
 								CODOPM
 
 
-CODOPM is a simple and beautiful private messaging system developed for Joomla . 
+CODOPM is a simple and beautiful private messaging system developed for Codoforum . 
 
 
 Requirements:
