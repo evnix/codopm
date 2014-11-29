@@ -33,11 +33,11 @@ Schema::create(PREFIX . 'codopm_messages', function($table) {
     $table->integer('msg_from');
 
     $table->string('msg_from_name', 255);
-    $table->integer('msg_to', 11);
+    $table->integer('msg_to');
     $table->string('msg_to_name', 255);
     $table->text('message');
     $table->text('attachments');
-    $table->integer('owner', 11);
+    $table->integer('owner');
     $table->dateTime('sent')->default('0000-00-00 00:00:00');
     $table->integer('recd')->unsigned()->default('0');
     $table->double('time', 15, 4);
